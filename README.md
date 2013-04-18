@@ -1,4 +1,3 @@
-
 # a group of git repos using git submodule
 
 # quick start
@@ -18,7 +17,7 @@ git submodule update
 
 ## work on submodules
 
-```
+```sh
 cd submod
 git pull
 git checkout -b feature-xxx
@@ -38,4 +37,3 @@ git commit -am'update submod'
 # refs
 http://git-scm.com/book/en/Git-Tools-Submodules
 http://git.agutong.com/Agutong/dev-guide/wikis/GitUsage
-
