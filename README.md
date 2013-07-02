@@ -13,6 +13,10 @@ git submodule init
 
 #pull submodule content
 git submodule update
+
+#option:
+#don't forget to  checkout master if you want to dev sub repos
+git submodule foreach git checkout master
 ```
 
 ## work on submodules
