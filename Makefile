@@ -18,5 +18,6 @@ master:
 	git submodule foreach git checkout master
 
 tmpci:
-	git submodule foreach git add -A || true
-	git submodule foreach git commit -am'tmp ci' || true
+	git submodule foreach git add -A
+	git submodule foreach "git commit  -m'tmp ci' || true"
+
