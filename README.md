@@ -6,7 +6,10 @@
 
 ```sh
 #Cloning a Project with Submodules
-git clone git://parent.git
+git clone git://GIT_REPO_PATH.git  
+#eg. git clone ssh://git@git.agutong.com:5678/TemplateProject/repo-group.git
+
+cd GIT_REPO_PATH
 
 #add submodule url to .git/config
 git submodule init
