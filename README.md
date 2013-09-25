@@ -6,7 +6,7 @@
 
 http://git.agutong.com:3007/Agutong/dev-guide/wikis/python-dev-setup-guide
 
-** run as normal user, not root**
+**run as normal user, not root**
 
 ```sh
 #create a new virtualenv
