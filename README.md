@@ -2,10 +2,11 @@
 
 # quick start
 
-check this first
+**check this first**
 
 http://git.agutong.com:3007/Agutong/dev-guide/wikis/python-dev-setup-guide
 
+** run as normal user, not root**
 
 ```sh
 #create a new virtualenv
@@ -31,4 +32,3 @@ pip install -r requirements.txt
 http://git.agutong.com:3007/Agutong/dev-guide/wikis/git-submodule-usage
 http://git-scm.com/book/en/Git-Tools-Submodules
 http://git.agutong.com/Agutong/dev-guide/wikis/GitUsage
-
