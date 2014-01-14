@@ -6,25 +6,40 @@
 
 http://git.agutong.com:3007/Agutong/dev-guide/wikis/python-dev-setup-guide
 
-**run as normal user, not root**
+**run as root**
+
+```
+user=$USER
+su
+cd /opt
+wget ftp://192.168.1.152/public/pyenv.crawler.fedora.tgz
+tar -xzf pyenv.crawler.fedora.tgz
+chown -R $user:$user pyenv.crawler
+exit
+```
+
+**run as normal user**
+
+setup
 
 ```sh
-#create a new virtualenv
-cd
-virtualenv pyenv.xxxx
-source pyenv.xxxx/bin/activate
+git clone ssh://git@git.agutong.com:5678/financial-data-crawler/public-portfolio-crawler-group.git
+cd public-portfolio-crawler-group
 
-#install scipy for numpy
-sudo yum install scipy
-
-#clone git repo and sub repos
-git clone xxxx-group.git
-cd xxxx-group
+# clone git submodules
 make setup
 
 # install python package dependecies
 pip install -r requirements.txt
 ```
+
+run test command
+
+```
+. env.sh
+make test
+```
+
 
 
 ## git refs
@@ -32,3 +47,4 @@ pip install -r requirements.txt
 http://git.agutong.com:3007/Agutong/dev-guide/wikis/git-submodule-usage
 http://git-scm.com/book/en/Git-Tools-Submodules
 http://git.agutong.com/Agutong/dev-guide/wikis/GitUsage
+

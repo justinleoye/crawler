@@ -29,3 +29,7 @@ update:
 	git submodule update
 	git submodule foreach git checkout master
 	git submodule foreach git pull
+
+test:
+	quant-executor start -p ytcj_quotation_crawler crawler.ytcj.kline.m1.daily.stock
+
