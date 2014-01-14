@@ -6,11 +6,9 @@
 
 http://git.agutong.com:3007/Agutong/dev-guide/wikis/python-dev-setup-guide
 
-**run as root**
-
 ```
-user=$USER
-su
+user=$USER        #your current user name
+su                #run as root
 cd /opt
 wget ftp://192.168.1.152/public/pyenv.crawler.fedora.tgz
 tar -xzf pyenv.crawler.fedora.tgz
