@@ -46,5 +46,5 @@ make test
 
 http://git.agutong.com:3007/Agutong/dev-guide/wikis/git-submodule-usage
 http://git-scm.com/book/en/Git-Tools-Submodules
-http://git.agutong.com/Agutong/dev-guide/wikis/GitUsage
+http://git.agutong.com:3007/Agutong/dev-guide/wikis/git-usage
 
