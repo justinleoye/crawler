@@ -6,11 +6,9 @@
 
 http://git.agutong.com:3007/Agutong/dev-guide/wikis/python-dev-setup-guide
 
-**run as root**
-
 ```
-user=$USER
-su
+user=$USER        #your current user name
+su                #run as root
 cd /opt
 wget ftp://192.168.1.152/public/pyenv.crawler.fedora.tgz
 tar -xzf pyenv.crawler.fedora.tgz
@@ -28,15 +26,17 @@ cd public-portfolio-crawler-group
 
 # clone git submodules
 make setup
-
-# install python package dependecies
-pip install -r requirements.txt
 ```
 
 run test command
 
 ```
+#setup env first (run every time after new shell)
 . env.sh
+
+#install python package dependecies (run only once)
+pip install -r requirements.txt
+
 make test
 ```
 
