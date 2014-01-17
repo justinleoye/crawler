@@ -16,3 +16,6 @@
 [submodule "public-portfolio-crawler"]
 	path = public-portfolio-crawler
 	url = ssh://git@git.agutong.com:5678/financial-data-crawler/public-portfolio-crawler.git
+[submodule "quant-serviced"]
+	path = quant-serviced
+	url = ssh://git@git.agutong.com:5678/distributed-computing/quant-serviced.git

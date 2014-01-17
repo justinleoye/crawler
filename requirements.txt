@@ -24,6 +24,7 @@ git+ssh://git@git.agutong.com:5678/OpenSource/python-etcd.git
 
 git+ssh://git@git.agutong.com:5678/GeneralLibrary/updater.git
 
+#git+ssh://git@git.agutong.com:5678/distributed-computing/quant-rpc.git
 
 -e ./pyutils
 
@@ -50,6 +51,7 @@ git+ssh://git@git.agutong.com:5678/GeneralLibrary/updater.git
 #-e ./open-app-flaskapp
 
 
+-e ./quant-serviced
 -e ./quant-executor
 -e ./quant-crawler
 -e ./ytcj-quotation-crawler

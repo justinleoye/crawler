@@ -26,15 +26,17 @@ cd public-portfolio-crawler-group
 
 # clone git submodules
 make setup
-
-# install python package dependecies
-pip install -r requirements.txt
 ```
 
 run test command
 
 ```
+#setup env first (run every time after new shell)
 . env.sh
+
+#install python package dependecies (run only once)
+pip install -r requirements.txt
+
 make test
 ```
 
