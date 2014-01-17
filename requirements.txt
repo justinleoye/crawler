@@ -22,10 +22,10 @@ git+ssh://git@git.agutong.com:5678/OpenSource/pyyaml.git
 git+ssh://git@git.agutong.com:5678/OpenSource/zerorpc-python.git
 git+ssh://git@git.agutong.com:5678/OpenSource/python-etcd.git
 
+-e ./pyutils
+
 git+ssh://git@git.agutong.com:5678/GeneralLibrary/updater.git
 
-
--e ./pyutils
 
 #-e ./quant-template
 #-e ./quant-data
