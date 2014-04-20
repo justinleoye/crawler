@@ -1,21 +1,21 @@
-[submodule "quant-etcd"]
-	path = quant-etcd
-	url = ssh://git@git.agutong.com:5678/distributed-computing/quant-etcd.git
-[submodule "quant-crawler"]
-	path = quant-crawler
-	url = ssh://git@git.agutong.com:5678/crawler/quant-crawler.git
-[submodule "pyutils"]
-	path = pyutils
-	url = ssh://git@git.agutong.com:5678/GeneralLibrary/pyutils.git
-[submodule "quant-executor"]
-	path = quant-executor
-	url = ssh://git@git.agutong.com:5678/distributed-computing/quant-executor.git
-[submodule "ytcj-quotation-crawler"]
-	path = ytcj-quotation-crawler
-	url = ssh://git@git.agutong.com:5678/financial-data-crawler/ytcj-quotation-crawler.git
-[submodule "public-portfolio-crawler"]
-	path = public-portfolio-crawler
-	url = ssh://git@git.agutong.com:5678/financial-data-crawler/public-portfolio-crawler.git
-[submodule "quant-serviced"]
-	path = quant-serviced
-	url = ssh://git@git.agutong.com:5678/distributed-computing/quant-serviced.git
+#[submodule "quant-etcd"]
+#	path = quant-etcd
+#	url = ssh://git@git.agutong.com:5678/distributed-computing/quant-etcd.git
+#[submodule "quant-crawler"]
+#	path = quant-crawler
+#	url = ssh://git@git.agutong.com:5678/crawler/quant-crawler.git
+#[submodule "pyutils"]
+#	path = pyutils
+#	url = ssh://git@git.agutong.com:5678/GeneralLibrary/pyutils.git
+#[submodule "quant-executor"]
+#	path = quant-executor
+#	url = ssh://git@git.agutong.com:5678/distributed-computing/quant-executor.git
+#[submodule "ytcj-quotation-crawler"]
+#	path = ytcj-quotation-crawler
+#	url = ssh://git@git.agutong.com:5678/financial-data-crawler/ytcj-quotation-crawler.git
+#[submodule "public-portfolio-crawler"]
+#	path = public-portfolio-crawler
+#	url = ssh://git@git.agutong.com:5678/financial-data-crawler/public-portfolio-crawler.git
+#[submodule "quant-serviced"]
+#	path = quant-serviced
+#	url = ssh://git@git.agutong.com:5678/distributed-computing/quant-serviced.git
